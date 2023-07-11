@@ -7,7 +7,7 @@ display: block;
   width: 160px;
   height: 120px;
   content: "";
-  background-image: url(/src/images/section01/С&R.svg), url(/src/images/section01/header_logo.png);
+  background-image: url(/src/images/section01/С&R.svg), url(/src/images/section01/header_logo.svg);
   background-position: bottom center, top center;
   background-size: 100px, 160px;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@ display: block;
     font-size: 72px;
 }
 .ColoRawe04{
-
+    font-family: 'Playfair Display', serif;
     font-size: 48px;
 }
 .ColoRawe05{
@@ -44,5 +44,6 @@ border-radius: 10px;
 padding: ;
 min-height: 67px;
 min-width: 254px;
+font-size: 24px;
 }
 
