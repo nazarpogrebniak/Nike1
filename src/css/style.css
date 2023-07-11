@@ -1,0 +1,48 @@
+
+header > nav{
+background-color: rgb(35, 35, 132);
+}
+.colorawe-container::before{
+display: block;
+  width: 160px;
+  height: 120px;
+  content: "";
+  background-image: url(/src/images/section01/С&R.svg), url(/src/images/section01/header_logo.png);
+  background-position: bottom center, top center;
+  background-size: 100px, 160px;
+  background-repeat: no-repeat;
+}
+.colorawe-container{
+   min-width: 1110px;
+   margin: 0 auto;
+}
+.ColoRawe{
+
+    background: url(/src/images/section01/background_header.png);
+}
+.ColoRawe02{
+    font-family: 'Playfair Display', serif;
+    font-size: 144px;
+}
+.ColoRawe03{
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+}
+.ColoRawe04{
+
+    font-size: 48px;
+}
+.ColoRawe05{
+    
+    font-size: 18px;
+}
+.button01{
+    color: white;
+background-color: violet;
+border: none;
+border-radius: 10px;
+padding: ;
+min-height: 67px;
+min-width: 254px;
+}
+
