@@ -16,23 +16,23 @@ display: block;
    max-width: 1110px;
    margin: 0 auto;
 }
-.ColoRawe{
+.coloRawe{
 background-repeat: no-repeat;
     background: url(/src/images/section01/background_header.png);
 }
-.ColoRawe02{
+.coloRawe02{
     font-family: 'Playfair Display', serif;
     font-size: 144px;
 }
-.ColoRawe03{
+.colorawe03{
     font-family: 'Playfair Display', serif;
     font-size: 72px;
 }
-.ColoRawe04{
+.coloRawe04{
     font-family: font-family: 'Playfair Display', serif;
     font-size: 48px;
 }
-.ColoRawe05{
+.coloRawe05{
     
     font-size: 18px;
 }
@@ -51,17 +51,23 @@ font-size: 24px;
     font-family: 'Playfair Display', serif;
     font-size: 36px;
 }
-.Reviews{
+.reviews-cards-section{
 background: linear-gradient(to bottom right,rgb(0, 0, 122) , rgb(0, 0, 122),rgb(0, 192, 206));
 font-family: 'Playfair Display', serif;
 }
-.card1-section3{
+.box1{
+    
+    background: linear-gradient(to bottom right, #00E5E6, #00A8F7, #9A76F9, #CC5EC2);
     font-family: 'Roboto', sans-serif;
+    border-radius: 15px;
+    box-sizing: border-box ;
+    width: 255px;
+    height: 292px;
 }
-.main-text-card1{
+.main-text-card{
     font-size: 24px;
 }
-.nomber-card1{
+.nomber-card{
     font-size: 14px;
 }
 .reviews-card{
@@ -72,4 +78,30 @@ font-family: 'Playfair Display', serif;
 }
 .with-us{
     font-size: 12px;
+}
+.box2{
+    background: linear-gradient(to bottom right, #FF68B4, #FF45E1, #CE3AFF, #8961FF);
+    font-family: 'Roboto', sans-serif;
+    border-radius: 15px;
+    box-sizing: border-box ;
+    width: 255px;
+    height: 292px;
+}
+.elizabeth-garsia2{
+    font-size: 14px;
+}
+.tom-maquare{
+    font-size: 14px;
+}
+.box3{
+    background: linear-gradient(to bottom right, #FFE128, #FF9B5C, #FF8381, #FF5489);
+    font-family: 'Roboto', sans-serif;
+    border-radius: 15px;
+    box-sizing: border-box ;
+    width: 255px;
+    height: 292px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
 }
