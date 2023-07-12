@@ -1,6 +1,6 @@
 
 header > nav{
-background-color: rgb(35, 35, 132);
+    background: #012D63;
 }
 .colorawe-container::before{
 display: block;
@@ -13,11 +13,11 @@ display: block;
   background-repeat: no-repeat;
 }
 .colorawe-container{
-   min-width: 1110px;
+   max-width: 1110px;
    margin: 0 auto;
 }
 .ColoRawe{
-
+background-repeat: no-repeat;
     background: url(/src/images/section01/background_header.png);
 }
 .ColoRawe02{
@@ -29,7 +29,7 @@ display: block;
     font-size: 72px;
 }
 .ColoRawe04{
-    font-family: 'Playfair Display', serif;
+    font-family: font-family: 'Playfair Display', serif;
     font-size: 48px;
 }
 .ColoRawe05{
@@ -38,7 +38,7 @@ display: block;
 }
 .button01{
     color: white;
-background-color: violet;
+    background: #8E32C6;
 border: none;
 border-radius: 10px;
 padding: ;
@@ -46,4 +46,30 @@ min-height: 67px;
 min-width: 254px;
 font-size: 24px;
 }
-
+.section2{
+    background: linear-gradient(to bottom right, violet,rgb(0, 0, 122), rgb(0, 192, 206) );
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+}
+.Reviews{
+background: linear-gradient(to bottom right,rgb(0, 0, 122) , rgb(0, 0, 122),rgb(0, 192, 206));
+font-family: 'Playfair Display', serif;
+}
+.card1-section3{
+    font-family: 'Roboto', sans-serif;
+}
+.main-text-card1{
+    font-size: 24px;
+}
+.nomber-card1{
+    font-size: 14px;
+}
+.reviews-card{
+    font-size: 48px;
+}
+.john-tailor2{
+    font-size: 14px;
+}
+.with-us{
+    font-size: 12px;
+}
