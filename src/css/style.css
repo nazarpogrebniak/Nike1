@@ -82,11 +82,8 @@ margin-bottom: 202px;
 }
 .reviews-cards-section{
     background-image: url(/src/images/section03/section3-background.svg);
-    background-size: auto;
-    background-position: ;
 font-family: 'Playfair Display', serif;
 }
-
 .box1{
     background: linear-gradient(to bottom right, #00E5E6, #00A8F7, #9A76F9, #CC5EC2);
     font-family: 'Roboto', sans-serif;
@@ -154,9 +151,12 @@ font-family: 'Playfair Display', serif;
 .order-section{
     background: url(/src/images/section04/section3_background.png);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     min-width: 1140px;
     min-height: 509px;
     margin: 0 auto;
+    outline: none;
 }
 .select{
     display: flex;
@@ -164,6 +164,7 @@ font-family: 'Playfair Display', serif;
     flex-direction: column;
     align-items: center;
     border-radius: 50px;
+    outline: none;
 }
 .questions{
     font-family: 'Roboto', sans-serif;
@@ -172,6 +173,8 @@ font-family: 'Playfair Display', serif;
     margin-left: 430px;
     margin-right: 430px;
     margin-bottom: 124px;
+    outline: none;
+    border: none;
 }
 .title-order{
     font-family: 'Playfair Display', serif;
@@ -180,17 +183,20 @@ font-family: 'Playfair Display', serif;
     margin-left: 655;
     margin-right: 655;
     margin-bottom: 33px;
+   
 }
  .email{
     border-radius: 50px;
     height: 60px;
     width: 690px;
     
+    
  }
  .country{
     border-radius: 50px;
     height: 50px;
     width: 580px;
+   
  }
  .city{
     border-radius: 50px;
@@ -201,6 +207,7 @@ font-family: 'Playfair Display', serif;
     border-radius: 50px;
     height: 50px;
     width: 580px;
+   
  }
  .button02{
     color: white;
@@ -216,3 +223,9 @@ margin-top: 19px;
 margin-left: 596px;
 margin-right: 596px;
  }
+footer{
+    background-color: #021635;
+}
+.right1{
+    text-align: right;
+}
