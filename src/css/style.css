@@ -1,29 +1,25 @@
 
-header > nav{
+header{
     background: #012D63;
 }
 .navigation{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
 }
-.m{
-margin-right: ;
+.languege-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
-.b{
-margin-right: 29px;
-}
-.a{
-margin-right: 29px;
-}
-.r{
-margin-right: 29px;
-}
-.c{
-margin-right: 29px;
-}
-.o{
-margin-right: 73px;
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
 }
 
 .colorawe-container::before{
@@ -82,6 +78,7 @@ margin-bottom: 202px;
 }
 .reviews-cards-section{
     background-image: url(/src/images/section03/section3-background.svg);
+    
 font-family: 'Playfair Display', serif;
 }
 .box1{
@@ -104,6 +101,8 @@ font-family: 'Playfair Display', serif;
     display: flex;
     justify-content: space-around;
     font-size: 48px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .john-tailor2{
     font-size: 14px;
@@ -147,6 +146,7 @@ font-family: 'Playfair Display', serif;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 3px;
+    padding-bottom: 114px;
 }
 .order-section{
     background: url(/src/images/section04/section3_background.png);
@@ -226,6 +226,43 @@ margin-right: 596px;
 footer{
     background-color: #021635;
 }
-.right1{
-    text-align: right;
+.section1-of-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
 }
+.section2-of-footer::after{
+    display: block;
+    width: 160px;
+    height: 120px;
+    content: "";
+    background-image: url(/src/images/section01/С&R.svg), url(/src/images/section01/header_logo.svg);
+    background-position: bottom center, top center;
+    background-size: 100px, 160px;
+    background-repeat: no-repeat;
+    
+}
+.section2-of-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+hr{
+    gap: 10px;
+}
+.box-for-footer{
+    padding-left: 165px;
+    padding-right: 164px;
+}
+.question-list{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.list2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
