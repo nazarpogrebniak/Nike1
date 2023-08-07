@@ -14,12 +14,12 @@
     <link rel="stylesheet" href="/src/css/normalize.css" />
     <link rel="stylesheet" href="/src/css/style.css" />
   </head>
-  <body>
-    <header>
-      <nav class="section1">
+  <!--navigation-->
+    <header class="header">
+      <nav class="navigation">
         <img src="src/images/navigation/navigation_logo.png" alt="logo" />
         <ul class="navigation">
-          <li><a href="">Main page</a></li>
+          <li class="big"><a href="">Main page</a></li>
           <li><a href="">Benefits</a></li>
           <li><a href="">Advantages</a></li>
           <li><a href="">Reviews</a></li>
@@ -33,7 +33,8 @@
       </nav>
     </header>
     <main>
-      <section class="coloRawe">
+      <!--Colorawe-->
+      <section class="colorawe">
         <div class="colorawe-container">
           <h1 class="colorawe02">ColoRawe</h1>
           <h3 class="colorawe03">Your dream Nike</h3>
@@ -47,94 +48,110 @@
           <a href=""><button class="button01">Buy my Nike</button></a>
         </div>
       </section>
+      <!--Section2-->
       <section class="section2">
-        <div class="card1-section2">
-          <div class="pemium-quality">
-            Premium <br />
-            Quality
-          </div>
-          <img src="/src/images/section02/star.png" alt="" />
-        </div>
-        <div class="car2-section2">
-          <img src="/src/images/section02/paint.png" alt="" />
-          <div class="indelible-paint">
-            Indelible <br />
-            paint
-          </div>
-        </div>
-        <div class="card3-section2">
-          <div class="fast-shipping">
-            Fast
-            <p>shipping</p>
-          </div>
-          <img src="/src/images/section02/car.png" alt="" />
-        </div>
-      </section>
-      <hr>
-      <section class="reviews-cards-section">
-        <h2 class="reviews-card">Reviews</h2>
-        <div class="cards">
-          <div class="box1">
-            <h2 class="main-text-card1">
-              Sneakers are very comfortable and well painted, nothing has worn
-              off in a year.
+        <div class="box-for-section2">
+          <div class="card1-section2">
+            <h2 class="section2-title">
+              Premium 
+              Quality
             </h2>
-            <h3 class="nomber-card1">25.11</h3>
-            <div class="john-tailor">
-              <img
-                class="john-tailor-img"
-                src="/src/images/section03/John.png"
-                alt=""
-              />
-              <h2 class="john-tailor2">John Tailor</h2>
-              <h3 class="with-us1">With us from 2018</h3>
-            </div>
+            <img src="/src/images/section02/star.png" alt="" />
           </div>
-
-          <div class="box2">
-            <h2 class="main-text-card">
-              I'm very happy with this color scheme. They match all my clothes.
+          
+          <div class="card2-section2">
+            <img src="/src/images/section02/paint.png" alt="" />
+            <h2 class="section2-title">
+              Indelible 
+              paint
             </h2>
-            <h3 class="nomber-card">05.01</h3>
-            <div class="elizabeth-garsia">
-              <img src="/src/images/section03/Elizabeth.png" alt="" />
-              <h2 class="elizabeth-garsia2">Elizabeth Garsia</h2>
-              <h3 class="with-us">With us from 2020</h3>
-            </div>
           </div>
-          <div class="box3">
-            <h2 class="main-text-card">
-              Just right if you need to go to a party. I use them actively, the
-              paint is super.
+      
+          <div class="card3-section2">
+            <h2 class="section2-title">
+              Fast
+              shipping
             </h2>
-            <h3 class="nomber-card">18.06</h3>
-            <div class="tom-maquare">
-              <img src="/src/images/section03/Tom.png" alt="" />
-              <h2 class="tom-maquare2">Tom Maquare</h2>
-              <h3 class="with-us">With us from 2019</h3>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="order-section">
-        <section class="order-section">
-          <div class="select">
-            <h2 class="title-order">Order</h2>
-            <div class="guestions">
-              <input class="email" type="text" name="Write your email" /> <br />
-              <br />
-              <input class="country" type="text" name="Your Country" /> <br />
-              <br />
-              <input class="city" type="text" name="Your City" /> <br />
-              <br />
-              <input class="adress" type="text" name="Your Adress" /> <br />
-              <br />
-            </div>
-            <a href=""><button class="button02">Order my Nike</button></a>
+            <img src="/src/images/section02/car.png" alt="" />
           </div>
         </section>
+        <hr />
+        </div>
+      <!--Reviews-->
+      <section class="reviews">
+        <div class="reviews-container">
+          <h2 class="reviews-title">Reviews</h2>
+          <div class="box-for-cards">
+            <div class="card1">
+             <div class="box-information">
+              <p>Sneakers are very 
+                comfortable and well 
+                painted, nothing has 
+                worn off in a year.</p>
+                <div class="month">25.11</div>
+                <div class="about-member">
+                  <img class="photo" src="/src/images/section03/John.png" alt="">
+                  <div class="member-box">
+                    <h3>John Teylor</h3>
+                  <h4 class="with-us">With us from 2018</h4>
+                  </div>
+                </div>
+            </div>
+             </div>
+          <div class="card2">
+            <div class="box-information">
+              <p>I'm very happy with this color scheme.
+                They match all my clothes.</p>
+                <div class="month">05.01</div>
+                <div class="about-member">
+                  <img class="photo" src="/src/images/section03/John.png" alt="">
+                  <div class="member-box">
+                    <h3>John Teylor</h3>
+                  <h4 class="with-us">With us from 2018</h4>
+                  </div>
+                </div>
+                
+            </div>
+          </div>
+          <div class="card3">
+            <div class="box-information">
+              <p>Just right if you need to go to a party.
+                I use them actively, the paint is super.</p>
+                <div class="month">18.06</div>
+                <div class="about-member">
+                  <img class="photo" src="/src/images/section03/John.png" alt="">
+                  <div class="member-box">
+                    <h3 >John Teylor</h3>
+                  <h4 class="with-us">With us from 2018</h4>
+                  </div>
+                </div>
+            </div>
+          </div>
+          </div>
+         <img class="palm" src="/src/images/section03/palm.png" alt="">
+        </div>
+      </section>
+      <!--Order-->
+      <section class="order">
+        <div class="order-container">
+          <h2 class="title-order">Order</h2>
+          <form class="order-form">
+            <div class="email">
+              <input placeholder="Write your email" type="email" name="Write your email"  /> 
+              <button class="confirm">Confirm </button>          
+            </div>
+            <input class="country" placeholder="Your country" type="text" name="Your Country" />
+            
+            <input class="city" placeholder="Your city" type="text" name="Your City" /> 
+            
+            <input class="adress" placeholder="Your adress" type="text" name="Your Adress" /> 
+            <button class="button02">Order my Nike</button>
+          </form>
+          
+        </div>
       </section>
     </main>
+    <!--Footer-->
     <footer>
       <div class="box-for-footer">
         <div class="section1-of-footer">
@@ -143,17 +160,17 @@
             <li><a href="">Have a proposal for cooperation?</a></li>
             <li><a href="">Advertising questions?</a></li>
           </ul>
-          <div class="conteiner2">
-            <div class="element01">
+          <ul class="conteiner2">
+            <li class="element01">
               <a href="">ColoRawe_support@gmail.com</a>
-            </div>
-            <div class="element02">
+            </li>
+            <li class="element02">
               <a href="">ColoRawe_Cooperation@gmail.com</a>
-            </div>
-            <div class="element03">
+            </li>
+            <li class="element03">
               <a href="">ColoRawe_Advertising@gmail.com</a>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
         <hr />
         <div class="section2-of-footer">
