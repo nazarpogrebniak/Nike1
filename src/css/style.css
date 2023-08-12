@@ -1,10 +1,11 @@
-body{
+body {
     width: 1440px;
 }
+
 header {
     background: #012D63;
     color: #C7C7C7;
-   
+
 }
 
 .navigation {
@@ -56,7 +57,7 @@ header a:hover {
     background: url(/src/images/section01/background_header.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 .colorawe02 {
@@ -72,7 +73,7 @@ header a:hover {
 }
 
 .colorawe04 {
-    font-family: font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 18px;
     margin-bottom: 41px;
 }
@@ -82,7 +83,6 @@ header a:hover {
     background: #8E32C6;
     border: none;
     border-radius: 10px;
-    
     min-height: 67px;
     min-width: 254px;
     font-size: 24px;
@@ -91,14 +91,14 @@ header a:hover {
 
 /* */
 .section2 {
-    background: linear-gradient(to bottom right, violet, rgb(0, 0, 122), rgb(0, 192, 206));
+    background-image: radial-gradient(circle at right bottom, rgb(1, 170, 199), rgb(2, 22, 53, 0.0) 22%), radial-gradient(circle at left top, rgb(110, 44, 165), rgb(2, 22, 53) 22%);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     font-family: 'Playfair Display', serif;
     font-size: 36px;
     height: 606px;
-  
+    padding-top: 105px;
 }
 
 .section2-title {
@@ -107,14 +107,14 @@ header a:hover {
 }
 
 .box-for-section2 {
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 145px;
-    box-sizing: border-box;
-    
+
     height: 396px;
     border: 5px solid #8E32C6;
-    margin: 0 auto;
+    padding-top: 25px;
     align-items: center;
     padding-right: 50px;
     padding-left: 50px;
@@ -156,21 +156,28 @@ header a:hover {
 
 /**/
 .reviews {
-    background-image: url(/src/images/section03/section3-background.svg);
-
+    background: radial-gradient(circle at right bottom, rgb(1, 170, 199), rgb(2, 22, 53) 22%);
+    background-image: url(/src/images/section03/palm.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin-bottom: 1px;
+    margin-top: 1px;
 }
 
 .reviews-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
+    max-width: 951px;
+
 }
 
 .box-for-cards {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    box-sizing: border-box;
+
     padding: 24px 245px 114px 245px;
     gap: 93px;
 
@@ -180,7 +187,14 @@ header a:hover {
     display: flex;
 
 }
-
+.block-foto{
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+}
+.photo{
+    width: 100%;
+}
 .reviews-title {
 
     font-size: 48px;
@@ -225,7 +239,7 @@ header a:hover {
 
 .card1 {
     background: linear-gradient(135deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.50%, #CC5EC2 100%);
-    box-sizing: border-box;
+
     border-radius: 15px;
     width: 255px;
     height: 292px;
@@ -233,7 +247,7 @@ header a:hover {
 
 .card2 {
     background: linear-gradient(135deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
-    box-sizing: border-box;
+
     border-radius: 15px;
     width: 255px;
     height: 292px;
@@ -241,7 +255,7 @@ header a:hover {
 
 .card3 {
     background: linear-gradient(135deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
-    box-sizing: border-box;
+
     border-radius: 15px;
     width: 255px;
     height: 292px;
@@ -257,6 +271,7 @@ header a:hover {
     background-size: cover;
     padding-top: 20px;
     padding-bottom: 35px;
+    height: 509px;
 }
 
 .order-container {
@@ -271,10 +286,7 @@ header a:hover {
 .title-order {
     font-family: 'Playfair Display', serif;
     font-size: 48px;
-
-
 }
-
 
 .order-form {
     display: flex;
@@ -358,6 +370,7 @@ footer {
     align-items: center;
 
 }
+
 hr {
     gap: 10px;
 
