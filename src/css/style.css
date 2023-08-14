@@ -39,7 +39,7 @@ header a:hover {
     width: 160px;
     height: 120px;
     content: "";
-    background-image: url(/src/images/section01/С&R.svg), url(/src/images/section01/header_logo.svg);
+    background-image: url(/src/images/section01/cr.svg), url(/src/images/section01/logo.svg);
     background-position: bottom center, top center;
     background-size: 100px, 160px;
     background-repeat: no-repeat;
@@ -54,26 +54,26 @@ header a:hover {
 
 .colorawe {
     background-repeat: no-repeat;
-    background: url(/src/images/section01/background_header.png);
+    background: url(/src/images/section01/background_colorawe.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
-.colorawe02 {
+.colorawe-title {
     font-family: 'Playfair Display', serif;
     font-size: 144px;
     margin-bottom: 8px;
 }
 
-.colorawe03 {
+.colorawe-subtitle {
     font-family: 'Playfair Display', serif;
     font-size: 72px;
     margin-bottom: 12px;
 }
 
-.colorawe04 {
-    font-family: 'Playfair Display', serif;
+.colorawe-text {
+    
     font-size: 18px;
     margin-bottom: 41px;
 }
@@ -157,11 +157,15 @@ header a:hover {
 /**/
 .reviews {
     background: radial-gradient(circle at right bottom, rgb(1, 170, 199), rgb(2, 22, 53) 22%);
-    background-image: url(/src/images/section03/palm.png);
+    background-image: url(/src/images/section03/flower.png);
+    background-position: left bottom;
     background-repeat: no-repeat;
     background-position: left bottom;
-    margin-bottom: 1px;
-    margin-top: 1px;
+    padding-bottom: 115px;
+    padding-top: 24px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    max-height: 520px;
 }
 
 .reviews-container {
@@ -191,6 +195,7 @@ header a:hover {
     width: 31px;
     height: 31px;
     border-radius: 50%;
+    overflow: hidden;
 }
 .photo{
     width: 100%;
@@ -262,10 +267,9 @@ header a:hover {
 }
 
 
-
 /**/
 .order {
-    background: url(/src/images/section04/section3_background.png);
+    background: url(/src/images/section04/background_order.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -353,7 +357,7 @@ footer {
     width: 160px;
     height: 120px;
     content: "";
-    background-image: url(/src/images/section01/С&R.svg), url(/src/images/section01/header_logo.svg);
+    background-image: url(/src/images/footer/cr.svg), url(/src/images/footer/logo.svg);
     background-position: bottom center, top center;
     background-size: 100px, 160px;
     background-repeat: no-repeat;
@@ -373,7 +377,7 @@ footer {
 
 hr {
     gap: 10px;
-
+width: 1110px;
 }
 
 .box-for-footer {
