@@ -156,8 +156,8 @@ header a:hover {
 
 /**/
 .reviews {
-    background: radial-gradient(circle at right bottom, rgb(1, 170, 199), rgb(2, 22, 53) 22%);
-    background-image: url(/src/images/section03/flower.png);
+    background-image:url(/src/images/section03/flower.png),  radial-gradient(circle at right bottom, rgb(1, 170, 199), rgb(2, 22, 53) 22%);
+    
     background-position: left bottom;
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -244,7 +244,7 @@ header a:hover {
 
 .card1 {
     background: linear-gradient(135deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.50%, #CC5EC2 100%);
-
+    box-shadow: 0px 14px 0px -5px #7B54B2,0px 30px 0px -13px #533978 ;
     border-radius: 15px;
     width: 255px;
     height: 292px;
@@ -252,6 +252,7 @@ header a:hover {
 
 .card2 {
     background: linear-gradient(135deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 14px 0px -5px #9159B1,0px 30px 0px -13px #61337C;
 
     border-radius: 15px;
     width: 255px;
@@ -260,7 +261,7 @@ header a:hover {
 
 .card3 {
     background: linear-gradient(135deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
-
+    box-shadow: 0px 14px 0px -5px #B95A4C,0px 30px 0px -13px #732F26;
     border-radius: 15px;
     width: 255px;
     height: 292px;
@@ -350,7 +351,9 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-top: 45px;
+   padding-bottom: 20px;
 }
+
 
 .section2-of-footer::after {
     display: block;
@@ -378,6 +381,7 @@ footer {
 hr {
     gap: 10px;
 width: 1110px;
+
 }
 
 .box-for-footer {
@@ -389,6 +393,7 @@ width: 1110px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
 }
 
 .list2 {
