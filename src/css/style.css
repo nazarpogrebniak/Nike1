@@ -1,6 +1,4 @@
-body {
-    width: 1440px;
-}
+
 
 header {
     background: #012D63;
@@ -103,7 +101,7 @@ header a:hover {
 
 .section2-title {
     max-width: 159px;
-    max-height: 102px;
+    
 }
 
 .box-for-section2 {
@@ -181,8 +179,7 @@ header a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
-    padding: 24px 245px 114px 245px;
+    padding: 24px 0px 114px ;
     gap: 93px;
 
 }
