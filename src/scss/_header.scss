@@ -1,0 +1,26 @@
+header {
+  background: #012d63;
+  color: #c7c7c7;
+}
+
+.navigation {
+  display: flex;
+  padding-top: 15px;
+  gap: 30px;
+  padding-bottom: 15px;
+  align-items: center;
+  max-width: 1110px;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+header a:hover {
+  color: white;
+  font-weight: 400;
+}
+
+.languege-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}

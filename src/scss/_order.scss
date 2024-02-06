@@ -1,0 +1,71 @@
+.order {
+  background: url(/src/images/section04/background_order.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  height: 509px;
+}
+
+.order-container {
+  max-width: 690px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+
+.title-order {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.email {
+  border-radius: 50px;
+  background-color: #fff;
+  padding: 12px 80px 12px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.email > input {
+  font-size: 28px;
+  color: #959595;
+}
+
+.email > button {
+  border: none;
+  outline: none;
+  font-size: 28px;
+  color: #d8d8d8d8;
+  background-color: #fff;
+}
+
+.order-form > input {
+  align-self: center;
+  padding: 12px 25px;
+  min-width: 580px;
+  border-radius: 50px;
+  color: #959595;
+  font-size: 24px;
+}
+
+.button02 {
+  color: white;
+  background: #8e32c6;
+  border: none;
+  border-radius: 10px;
+  align-self: center;
+  padding: 20px 50px;
+  font-size: 24px;
+}

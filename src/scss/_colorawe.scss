@@ -1,0 +1,51 @@
+.colorawe-container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: 94px;
+  &::before {
+    display: block;
+    width: 160px;
+    height: 120px;
+    content: "";
+    background-image: url(/src/images/section01/cr.svg),
+      url(/src/images/section01/logo.svg);
+    background-position: bottom center, top center;
+    background-size: 100px, 160px;
+    background-repeat: no-repeat;
+  }
+}
+
+.colorawe {
+  background-repeat: no-repeat;
+  background: url(/src/images/section01/background_colorawe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.colorawe-title {
+  font-family: "Playfair Display", serif;
+  font-size: 144px;
+  margin-bottom: 8px;
+}
+
+.colorawe-subtitle {
+  font-family: "Playfair Display", serif;
+  font-size: 72px;
+  margin-bottom: 12px;
+}
+
+.colorawe-text {
+  font-size: 18px;
+  margin-bottom: 41px;
+}
+
+.button01 {
+  color: white;
+  background: #8e32c6;
+  border: none;
+  border-radius: 10px;
+  min-height: 67px;
+  min-width: 254px;
+  font-size: 24px;
+  margin-bottom: 202px;
+}
